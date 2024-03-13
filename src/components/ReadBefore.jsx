@@ -54,7 +54,7 @@ const ReadBefore = () => {
             <span className="text-lightgreen"> Before You</span> Travel
           </h2>
           <p
-            className="text-center max-w-[519px] mx-auto text-black opacity-60 text-base pt-4"
+            className="text-center capitalize max-w-[519px] mx-auto text-black opacity-60 text-base pt-4"
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
@@ -62,6 +62,8 @@ const ReadBefore = () => {
             fringilla nisl duis lectus. Tincidunt pretium odio at .
           </p>
           <div className="relative">
+
+          {/* -------------------------------next-prev arrows of slider------------------------------ */}
             <span
               className="cursor-pointer md:block hidden absolute start-[-56px] top-[50%] translate-y-[-50%]"
               onClick={() => first.current.slickPrev()}
@@ -74,6 +76,7 @@ const ReadBefore = () => {
             >
               <Nextbtn />
             </span>
+            {/* -------------------------------------read slider--------------------------------------- */}
             <Slider className="relative z-20" ref={first} {...settings}>
               {readSlider.map((places) => {
                 return (
@@ -87,7 +90,7 @@ const ReadBefore = () => {
                       <h3 className="font-semibold text-[20px] leading-[110%]">
                         {places.name}
                       </h3>
-                      <p className="mt-2 opacity-60 text-secondaryblack text-base">
+                      <p className="mt-2 opacity-60 capitalize text-secondaryblack text-base">
                         {places.about}
                       </p>
                       <div className="flex mt-4 justify-between">

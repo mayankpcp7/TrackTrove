@@ -1,9 +1,9 @@
 import china from "../assets/images/webp/china.webp";
-import hongkong from "../assets/images/webp/hongkong.webp";
-import snowmountain from "../assets/images/webp/snowmountain.webp";
-import scarlet from "../assets/images/webp/Scarlet-thomson.webp";
-import johndoe from "../assets/images/webp/johndoe.webp";
-import alicesmith from "../assets/images/webp/Alice-smith.webp";
+import hongkong from "../assets/images/webp/hong-kong.webp";
+import snowmountain from "../assets/images/webp/snow-mountain.webp";
+import scarlet from "../assets/images/webp/scarlet-thomson.webp";
+import johndoe from "../assets/images/webp/john-doe.webp";
+import alicesmith from "../assets/images/webp/alice-smith.webp";
 import emily from "../assets/images/webp/emily.webp";
 import david from "../assets/images/webp/david.webp";
 

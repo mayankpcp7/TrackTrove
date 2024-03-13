@@ -9,6 +9,7 @@ const Discover = () => {
         className="max-w-[1140px] mx-auto px-4 xl:px-0 xl:pt-[120px] lg:pt-[100px] md:pt-[80px] sm:pt-[60px] pt-[48px] relative"
         id="aboutus"
       >
+        {/* ------------------------------------images and card of discover----------------------------- */}
         <img
           className="max-w-[80px] xl:max-w-[163px] absolute top-[-10%] xl:top-[-22%] start-[1%] xl:start-[-12%] animate-tilt"
           src={leftvec}
@@ -20,7 +21,7 @@ const Discover = () => {
               <img
                 className="max-w-[352px] bg-white destination_shadow  border-white rounded-[16px] p-2"
                 src={island}
-                alt="discover1.webp"
+                alt="island.webp"
               />
               <div className="shadow-[4px_4px_16px_0px_#00000029] flex flex-col justify-center rounded-[8px] ms-6 mt-9 items-center  w-[139px] h-[116px]">
                 <h3 className="text-lg text-lightgreen font-semibold">200+</h3>
@@ -39,7 +40,7 @@ const Discover = () => {
               <img
                 className="max-w-[352px] ms-9 mt-[-36%] bg-white destination_shadow rounded-[16px] p-2"
                 src={hut}
-                alt="discover2.webp"
+                alt="hut.webp"
               />
             </div>
           </div>
@@ -49,6 +50,8 @@ const Discover = () => {
             data-aos="fade-in-right"
             data-aos-duration="1500"
           >
+
+          {/* -----------------------------subheading and content--------------------------------- */}
             <h2 className="text-center sm:text-[48px] text-[27px] lg:text-start xl:text-xl text-secondaryblack font-bold leading-[120%] lg:max-w-[481px]">
               Discover the <span className="text-lightgreen">World </span> with
               Us

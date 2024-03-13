@@ -1,4 +1,5 @@
 // ------------------------------------------------slider buttons -----------------------------------------------------------
+// ------------prev-button-----------------
 export const Prevbtn = () => {
   return (
     <svg
@@ -27,6 +28,7 @@ export const Prevbtn = () => {
     </svg>
   );
 };
+//-------------- next-button----------------
 export const Nextbtn = () => {
   return (
     <svg

@@ -1,9 +1,9 @@
 import React from "react";
 import footerlogo from "../assets/images/webp/footerlogo.webp";
 import leftarrow from "../assets/images/svg/welcome-left.svg";
-import rightarrow from "../assets/images/svg/welcome-right.svg";
+import rightarrow from "../assets/images/svg/";
 import footervec from "../assets/images/webp/headerleft-vec.webp";
-import { Facebook, Instagram, Linkedin } from "./icons/Footersocialicons";
+import { Facebook, Instagram, Linkedin } from "./icons/FooterSocialIcons";
 const Footer = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const Footer = () => {
             <h4 className="font-bold xl:text-xl  sm:text-[40px] leading-[100%] md:text-[48px] text-[38px] text-white text-center">
               Welcome to Our Newsletter
             </h4>
-            <p className="pt-4 text-white text-base opacity-60 max-w-[466px] mx-auto text-center">
+            <p className="pt-4 text-white text-base capitalize opacity-60 max-w-[466px] mx-auto text-center">
               Lorem ipsum dolor sit amet consectetur. In ultrices orci urna eget
               fringilla nisl duis lectus. Tincidunt pretium odio
             </p>
