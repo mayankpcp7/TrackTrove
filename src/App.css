@@ -94,7 +94,9 @@ html {
     left: 50%;
     transform: translateX(-50%);
 }
-
+.swiper-3d{
+  perspective: 1288px !important;
+}
 .swiper-pagination .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -109,7 +111,10 @@ html {
     background-color: #35a035;
     transform: scale(1.7);
 }
-
+.swiper-slide{
+  display: flex !important;
+  justify-content: center !important;
+}
 * 
 /* ----------------------------Footer------------------------------ */
 .bg_white {

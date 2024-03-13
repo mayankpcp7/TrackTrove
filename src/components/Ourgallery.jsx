@@ -20,7 +20,7 @@ function Ourgallery() {
           src={galleryvec}
           alt="vec"
         />
-        <div className=" xl:max-w-[1210px] xl:mx-auto mx-4 relative overflow-hidden">
+        <div className=" xl:max-w-[1140px] xl:mx-auto mx-4 relative overflow-hidden">
           <h2 className="text-center font-bold  text-[38px] sm:text-[42px] xl:text-xl leading-[129%]">
             Our <span className="text-lightgreen">Gallery </span>
           </h2>
@@ -31,7 +31,7 @@ function Ourgallery() {
           </p>
 
           <Swiper
-            className=" absolute start-[50%] px-4 !translate-x-[-50%] my-10 pe-20 "
+            className=" absolute start-[50%] px-4 !translate-x-[-50%] my-10  "
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
