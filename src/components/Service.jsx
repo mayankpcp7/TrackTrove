@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import check from "../assets/images/svg/check.svg";
 import greenellipse from "../assets/images/webp/green-ellipse.webp";
 import mountain from "../assets/images/webp/mountains.webp";
 import pillar from "../assets/images/webp/pillar-monument.webp";
 import maldivesisland from "../assets/images/webp/maldives-island.webp";
 import tajmahal from "../assets/images/webp/tajmahal.webp";
-import serviceleftvec from "../assets/images/webp/serviceleft-vec.webp";
+import aeroplanevec from "../assets/images/webp/serviceleft-vec.webp";
 
 const Service = () => {
   function viewmore() {
@@ -26,7 +26,7 @@ const Service = () => {
         <div className="max-w-[1140px] mx-auto px-4 xl:px-0 relative">
           <img
             className="max-w-[80px] animate-tilt xl:max-w-[163px] absolute top-[-15%] xl:top-[-27%] start-[1%] xl:start-[-12%]"
-            src={serviceleftvec}
+            src={aeroplanevec}
             alt="leftvec"
           />
           <div className="flex flex-col-reverse gap-6 lg:gap-0 items-center xl:justify-normal justify-between  lg:flex-row">

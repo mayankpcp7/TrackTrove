@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import clientbg from "../assets/images/webp/client-bg.webp";
-import clientvec from "../assets/images/svg/invertedcomas.svg";
-import clientleftvec from "../assets/images/webp/clientleft-vec.webp";
-import clientborder from "../assets/images/webp/clientborder.webp";
+import invertedcomas from "../assets/images/svg/inverted-comas.svg";
+import Aeroplanevec from "../assets/images/webp/left-aeroplane-vec.webp";
+import clientborder from "../assets/images/webp/client-border.webp";
 import { clientsData } from "./Helper";
 import scarlet from "../assets/images/webp/Scarlet-thomson.webp";
-import johndoe from "../assets/images/webp/johndoe.webp";
-import alicesmith from "../assets/images/webp/Alice-smith.webp";
+import johndoe from "../assets/images/webp/john-doe.webp";
+import alicesmith from "../assets/images/webp/alice-smith.webp";
 import emily from "../assets/images/webp/emily.webp";
 import david from "../assets/images/webp/david.webp";
 
@@ -31,8 +31,8 @@ const Client = () => {
         <div className="max-w-[1140px] mx-auto px-4 xl:px-0 relative">
           <img
             className="max-w-[80px] animate-tilt lg:block hidden xl:max-w-[163px] absolute top-[-35%] xl:top-[-60%] start-[1%] xl:start-[-12%]"
-            src={clientleftvec}
-            alt="clientvec.svg"
+            src={invertedcomas}
+            alt="inverted-comas"
           />
           <h2 className="text-center font-bold  text-[30px] sm:text-[42px] xl:text-xl leading-[129%]">
             What Our <span className="text-lightgreen">Client Says </span>
@@ -43,15 +43,15 @@ const Client = () => {
           >
             <img
               className="absolute top-[-12%] z-10 start-[8%]"
-              src={clientvec}
-              alt="clientvec.svg"
+              src={Aeroplanevec}
+              alt="aeroplane-vec"
             />
             <img
               className="mx-auto min-h-[200px] border border-lightgreen rounded-[20px]"
               data-aos="zoom-in"
               data-aos-duration="1500"
               src={clientbg}
-              alt="clientbg.webp"
+              alt="client-bg"
             />
             <p
               id="client-pera"
@@ -71,7 +71,7 @@ const Client = () => {
                   <img
                     className="max-w-[60px] absolute top-[-35%] start-[15%]"
                     src={clientborder}
-                    alt="clientborder"
+                    alt="client-border"
                   />
                 )}
                 <div className="flex items-center mt-5 justify-start">
@@ -94,11 +94,11 @@ const Client = () => {
               </span>
             ))}
           </div>
-          <div className=" hidden items-start mb-5 lg_flex mt-10">
+          <div className="hidden items-start mb-5 lg_flex mt-10">
             <img
               className="max-w-[50px] sm:max-w-[60px]"
               src={scarlet}
-              alt="client.webp"
+              alt="scarlet"
             />
             <div className="border ms-2 sm:ms-4 bg-[#eff7ef] border-lightgreen rounded-[20px] p-3 sm:p-5 max-w-[600px] justify-center">
               <h5 className="text-[18px] font-semibold">Scarlett Thomas </h5>

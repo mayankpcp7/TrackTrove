@@ -3,7 +3,7 @@ import { readSlider } from "./Helper";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Nextbtn, Prevbtn } from "./icons/Sliderarrows";
+import { Nextbtn, Prevbtn } from "./icons/SliderArrows";
 import readvec from "../assets/images/webp/readright-vec.webp";
 
 const ReadBefore = () => {
