@@ -94,6 +94,7 @@ const Client = () => {
               </span>
             ))}
           </div>
+          {/* --------------------layout on lg and below screens--------------------------------- */}
           <div className="hidden items-start mb-5 lg_flex mt-10">
             <img
               className="max-w-[50px] sm:max-w-[60px]"
