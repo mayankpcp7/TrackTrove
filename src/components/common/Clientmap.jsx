@@ -1,0 +1,88 @@
+export const clientsData = [
+  {
+    name: "Scarlett Thomas",
+    country: "USA",
+    image: scarlet,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam dolores harum numquam illum pariatur. Illo repellat fugit consequuntur dolore, dolorem soluta molestias iusto earum placeat mollitia obcaecati voluptates minima?",
+    active: false,
+  },
+  {
+    name: "John Doe",
+    country: "Canada",
+    image: johndoe,
+    text: "Jhone Doe Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam dolores harum numquam illum ",
+    active: false,
+  },
+  {
+    name: "Alice Smith",
+    country: "UK",
+    image: alicesmith,
+    text: "Alice Smith Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam dolores harum numquam illum ",
+    active: false,
+  },
+  {
+    name: "Scarlett Thomas",
+    country: "USA",
+    image: scarlet,
+    text: "“Lorem ipsum dolor sit amet consectetur. Tellus et eu auctor faucibus volutpat. Faucibus magna fames porttitor ut. Egestas sodales ac mattis enim vitae risus in urna ac Sed consequat mauris justo eget quis duis arcu. Egestas sodales ac mattis enim vitae risus in urna ac.”",
+    active: true,
+  },
+  {
+    name: "Emily Brown",
+    country: "New Zealand",
+    image: emily,
+    text: "Emily Brown Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    active: false,
+  },
+  {
+    name: "David Wilson",
+    country: "Germany",
+    image: david,
+    text: "David Wilson Lorem ipsum dolor sit amet consectetur adipisicing elit Facere quisquam dolores harum numquam",
+    active: false,
+  },
+];
+export const clientsDatalg = [
+  {
+    name: "Scarlett Thomas",
+    country: "USA",
+    image: scarlet,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam dolores harum numquam illum pariatur. Illo repellat fugit consequuntur dolore, dolorem soluta molestias iusto earum placeat mollitia obcaecati voluptates minima?",
+    active: false,
+  },
+  {
+    name: "John Doe",
+    country: "Canada",
+    image: johndoe,
+    text: "Jhone Doe Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam dolores harum numquam illum ",
+    active: false,
+  },
+  {
+    name: "Alice Smith",
+    country: "UK",
+    image: alicesmith,
+    text: "Alice Smith Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam dolores harum numquam illum ",
+    active: false,
+  },
+  {
+    name: "Scarlett Thomas",
+    country: "USA",
+    image: scarlet,
+    text: "“Lorem ipsum dolor sit amet consectetur. Tellus et eu auctor faucibus volutpat. Faucibus magna fames porttitor ut. Egestas sodales ac mattis enim vitae risus in urna ac Sed consequat mauris justo eget quis duis arcu. Egestas sodales ac mattis enim vitae risus in urna ac.”",
+    active: true,
+  },
+  {
+    name: "Emily Brown",
+    country: "New Zealand",
+    image: emily,
+    text: "Emily Brown Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    active: false,
+  },
+  {
+    name: "David Wilson",
+    country: "Germany",
+    image: david,
+    text: "David Wilson Lorem ipsum dolor sit amet consectetur adipisicing elit Facere quisquam dolores harum numquam",
+    active: false,
+  },
+];

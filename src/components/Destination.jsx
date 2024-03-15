@@ -1,22 +1,22 @@
 import React from "react";
 import varanasi from "../assets/images/webp/varanasi.webp";
-import agra from "../assets/images/webp/agra.webp";
+import agra from "../assets/images/webp/tajmahal-destination.webp";
 import jaipur from "../assets/images/webp/jaipur.webp";
-import cardvec from "../assets/images/webp/readright-vec.webp"
+import cardvec from "../assets/images/webp/readright-vec.webp";
 const Destination = () => {
   function viewall() {
-    document.getElementById("view").style.display = "flex";
-    document.getElementById("view2").style.display = "flex";
-    document.getElementById("view3").style.display = "flex";
+    document
+      .querySelectorAll("#view, #view2, #view3 ,#lessbutton")
+      .forEach((element) => {
+        element.style.display = "flex";
+      });
     document.getElementById("viewbutton").style.display = "none";
-    document.getElementById("lessbutton").style.display = "flex";
   }
   function hideall() {
-    document.getElementById("view").style.display = "none";
-    document.getElementById("view2").style.display = "none";
-    document.getElementById("view3").style.display = "none";
+    document
+      .querySelectorAll("#view, #view2, #view3 ,#lessbutton")
+      .forEach((element) => {});
     document.getElementById("viewbutton").style.display = "flex";
-    document.getElementById("lessbutton").style.display = "none";
   }
 
   return (
@@ -52,7 +52,7 @@ const Destination = () => {
               <img
                 className="rounded-[16px] transition-all duration-300 hover:scale-110 "
                 src={varanasi}
-                alt="varanasi.webp"
+                alt="varanasi"
               />
               <h4 className="text-white font-semibold text-[20px] lg:text-[24px] absolute bottom-[32px] start-[50%] text-nowrap leading-[100%] translate-x-[-50%]">
                 Varanasi, Uttar Pradesh
@@ -68,7 +68,7 @@ const Destination = () => {
               <img
                 className=" rounded-[16px] transition-all duration-300 hover:scale-110  border-white"
                 src={agra}
-                alt="varanasi.webp"
+                alt="tajmahal"
               />
               <h4 className="text-white font-semibold text-[20px] lg:text-[24px] absolute bottom-[32px] start-[50%] text-nowrap leading-[100%] translate-x-[-50%]">
                 Taj Mahal, Agra
@@ -84,7 +84,7 @@ const Destination = () => {
               <img
                 className="rounded-[16px] transition-all duration-300 hover:scale-110  border-white"
                 src={jaipur}
-                alt="varanasi.webp"
+                alt="jaipur"
               />
               <h4 className="text-white font-semibold text-[20px] lg:text-[24px] absolute bottom-[32px] start-[50%] text-nowrap leading-[100%] translate-x-[-50%]">
                 Jaipur, Rajasthan
@@ -100,7 +100,7 @@ const Destination = () => {
               <img
                 className="rounded-[16px] transition-all duration-300 hover:scale-110 "
                 src={varanasi}
-                alt="varanasi.webp"
+                alt="varanasi"
               />
               <h4 className="text-white font-semibold text-[20px] lg:text-[24px] absolute bottom-[32px] start-[50%] text-nowrap leading-[100%] translate-x-[-50%]">
                 Varanasi, Uttar Pradesh
@@ -115,7 +115,7 @@ const Destination = () => {
               <img
                 className=" rounded-[16px] transition-all duration-300 hover:scale-110  border-white"
                 src={agra}
-                alt="agra.webp"
+                alt="tajmahal"
               />
               <h4 className="text-white font-semibold text-[20px] lg:text-[24px] absolute bottom-[32px] start-[50%] text-nowrap leading-[100%] translate-x-[-50%]">
                 Taj Mahal, Agra
@@ -130,7 +130,7 @@ const Destination = () => {
               <img
                 className="rounded-[16px] transition-all duration-300 hover:scale-110  border-white"
                 src={jaipur}
-                alt="jaipur.webp"
+                alt="jaipur"
               />
               <h4 className="text-white font-semibold text-[20px] lg:text-[24px] absolute bottom-[32px] start-[50%] text-nowrap leading-[100%] translate-x-[-50%]">
                 Jaipur, Rajasthan

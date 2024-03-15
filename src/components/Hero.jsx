@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "./Nav";
-import select from "../assets/images/svg/select.svg";
-import location from "../assets/images/svg/location.svg";
-import calender from "../assets/images/svg/calender.svg";
+import select from "../assets/images/svg/select-icon.svg";
+import location from "../assets/images/svg/location-icon.svg";
+import calender from "../assets/images/svg/calender-icon.svg";
 const Hero = () => {
   return (
     <>
@@ -25,7 +25,7 @@ const Hero = () => {
                 Its time to travel around
                 <span className="text-lightgreen"> the World !</span>
               </h1>
-              <p className="text-center lg:text-start font-jost capitalize text-black text-sm lg:text-base lg:max-w-[535px] pt-2 lg:pt-4  font-normal opacity-60">
+              <p className="text-center lg:text-start font-jost text-black text-sm lg:text-base lg:max-w-[535px] pt-2 lg:pt-4  font-normal opacity-60">
                 Discover the world with Wanderlust Travels, your ultimate
                 companion for unforgettable journeys and remarkable adventures.
                 Whether you're seeking the tranquility of secluded beaches, the
@@ -36,7 +36,6 @@ const Hero = () => {
                 Explore
               </button>
             </div>
-            {/* ---------------------------input box---------------------------------------- */}
             <div
               className="flex flex-col w-[340px] sm:w-[373px] h-[308px] p-4 sm:p-8 lg:mt-[82px] lg:ms-3 xl:ms-0 bg-white justify-center rounded-[16px]"
               data-aos="zoom-in"
